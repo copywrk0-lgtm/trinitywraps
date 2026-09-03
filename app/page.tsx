@@ -169,8 +169,15 @@ export default function Home() {
       </section>
 
       <section className="location">
-        <div className="location-image">
-          <img src="/images/trinity_wraps_07_shop_front.jpg" alt="Trinity Wraps shop front in Vijayawada" />
+        <div className="location-map" aria-label="Trinity Wraps location on Google Maps">
+          <iframe
+            title="Trinity Wraps, Vijayawada — Google Maps"
+            src="https://www.google.com/maps?q=24-29-203C%20BRTS%20Road%2C%20Gulabithota%2C%20Railway%20Colony%2C%20Vijayawada%2C%20Andhra%20Pradesh%20520004&output=embed"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+          <div className="map-badge">TRINITY WRAPS · VIJAYAWADA</div>
         </div>
         <div className="location-copy">
           <div className="section-kicker">04 / FIND US</div>
