@@ -1,0 +1,6 @@
+import ContactForm from "../../components/ContactForm";
+import MapBlock from "../../components/MapBlock";
+import PageHero from "../../components/PageHero";
+import { MAPS_URL, PHONE_DISPLAY, PHONE_E164, WHATSAPP_URL } from "../../lib/site";
+export const metadata={title:"Contact"};
+export default function Contact(){return <main><PageHero kicker="04 / CONTACT" title="LET'S BUILD" accent="YOUR LOOK." copy="Share your vehicle, service and idea. The enquiry form opens WhatsApp with the details ready to send."/><section className="shell contact-grid section-pad compact-top"><div><p className="section-kicker">PROJECT ENQUIRY</p><ContactForm/></div><aside className="contact-aside"><div><span>WhatsApp</span><a href={WHATSAPP_URL} target="_blank" rel="noreferrer">Start a chat ↗</a></div><div><span>Phone</span><a href={`tel:${PHONE_E164}`}>{PHONE_DISPLAY}</a></div><div><span>Workshop</span><p>24-29-203C, BRTS Road,<br/>Gulabithota, Railway Colony,<br/>Vijayawada, AP 520004</p><a href={MAPS_URL} target="_blank" rel="noreferrer">Open Google Maps ↗</a></div><div><span>Hours</span><p>Monday — Saturday<br/>10:30 AM — 10:00 PM</p></div></aside></section><section className="shell contact-map section-pad compact-top"><MapBlock/></section></main>}

@@ -1,26 +1,29 @@
-# Trinity Wraps Website
+# Trinity Wraps — Completed Next.js Website
 
-A premium one-page Next.js demo for Trinity Wraps, Vijayawada.
+A complete responsive multi-page website for Trinity Wraps, Vijayawada.
+
+## Included
+- Home page
+- Services page
+- Work / gallery page
+- About page
+- Contact + WhatsApp enquiry form
+- Embedded Google Map
+- Responsive mobile navigation
+- Floating WhatsApp CTA
+- Custom 404 page
+- SEO metadata, sitemap and robots
+- Responsive desktop/tablet/mobile styling
 
 ## Run locally
-
 ```bash
 npm install
 npm run dev
 ```
+Open http://localhost:3000
 
-Then open http://localhost:3000.
-
-## Build
-
+## Production
 ```bash
 npm run build
 npm start
 ```
-
-## Notes
-
-- The site uses the supplied Trinity Wraps gallery images in `public/images`.
-- WhatsApp and phone CTAs are wired to the published business contact.
-- Replace the extracted gallery images with original high-resolution photos before a production launch.
-- Review all business claims, service names, hours and contact details with the owner before publishing.
