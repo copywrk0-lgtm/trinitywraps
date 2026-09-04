@@ -1,0 +1,2 @@
+import Link from "next/link"; import ProcessSteps from "./ProcessSteps";
+export default function ServiceCTA(){return <section className="process section-pad"><div className="shell"><div className="section-heading split-heading"><div><div className="section-kicker">HOW IT WORKS</div><h2>FROM IDEA<br/><em>TO ROAD.</em></h2></div><p>No complicated booking flow. Start on WhatsApp, share your vehicle and idea, and we&apos;ll guide the next step.</p></div><ProcessSteps/><Link className="button primary" href="/contact">Start your project <span>↗</span></Link></div></section>}

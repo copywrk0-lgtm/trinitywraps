@@ -3,14 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { WHATSAPP_URL } from "../lib/site";
+import { WHATSAPP_URL } from "../lib/constants";
+import { navigation } from "../lib/navigation";
 
-const links = [
-  ["/services", "Services"],
-  ["/work", "Our Work"],
-  ["/about", "About"],
-  ["/contact", "Contact"],
-];
+const links = navigation;
 
 export default function Header() {
   const pathname = usePathname();

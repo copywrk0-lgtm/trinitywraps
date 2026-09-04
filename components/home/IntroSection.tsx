@@ -1,0 +1,2 @@
+import Link from "next/link"; import Arrow from "../ui/Arrow";
+export default function IntroSection(){return <section className="intro shell section-pad"><div className="section-kicker">01 / WHAT WE DO</div><div><h2>YOUR VEHICLE.<br/><span>YOUR STYLE.</span></h2><p>Trinity Wraps is an automotive wrap and modification studio in Vijayawada focused on making cars and bikes look unmistakably yours. Choose a subtle finish or go all-in — the work starts with your idea.</p><Link className="text-link" href="/about">About Trinity <Arrow/></Link></div></section>}

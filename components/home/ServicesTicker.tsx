@@ -1,0 +1,1 @@
+export default function ServicesTicker(){return <section className="ticker" aria-label="Services"><div>FULL CAR WRAPS</div><span>✦</span><div>BIKE WRAPS</div><span>✦</span><div>CUSTOM GRAPHICS</div><span>✦</span><div>PAINT PROTECTION</div><span>✦</span><div>WINDOW TINT</div></section>}

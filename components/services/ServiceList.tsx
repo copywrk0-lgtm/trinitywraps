@@ -1,0 +1,2 @@
+import { services } from "../../data/services"; import { WHATSAPP_URL } from "../../lib/constants";
+export default function ServiceList(){return <section className="shell service-list section-pad compact-top">{services.map(s=><article key={s.no}><span>{s.no}</span><div><h2>{s.title}</h2><p>{s.text}</p></div><a href={`${WHATSAPP_URL}?text=${encodeURIComponent('Hi Trinity Wraps, I want to know more about '+s.title)}`} target="_blank" rel="noreferrer">Ask about this ↗</a></article>)}</section>}

@@ -1,0 +1,1 @@
+export default function ServiceCard({service}:{service:{no:string,title:string,text:string}}){return <article className="service-card"><span>{service.no}</span><h3>{service.title}</h3><p>{service.text}</p><span className="service-arrow">↗</span></article>}

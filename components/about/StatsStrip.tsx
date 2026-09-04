@@ -1,0 +1,1 @@
+export default function StatsStrip(){return <section className="stats-strip"><div className="shell stats-grid"><div><b>08</b><span>Core services</span></div><div><b>02</b><span>Vehicle categories</span></div><div><b>01</b><span>Vijayawada studio</span></div><div><b>∞</b><span>Ways to make it yours</span></div></div></section>}
