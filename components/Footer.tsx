@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="site-footer shell">
       <div className="footer-main">
         <div>
-          <Link className="brand" href="/"><span className="brand-mark">T</span><span>TRINITY <b>WRAPS</b></span></Link>
+          <Link className="brand" href="/"><span className="brand-logo"><img src="/images/trinity-logo-mark.png" alt="" aria-hidden="true" /></span><span>TRINITY <b>WRAPS</b></span></Link>
           <p>Automotive wraps, protection and custom styling in Vijayawada.</p>
         </div>
         <div className="footer-links">

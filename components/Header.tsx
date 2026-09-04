@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className="nav shell">
       <Link className="brand" href="/" onClick={() => setOpen(false)} aria-label="Trinity Wraps home">
-        <span className="brand-mark">T</span><span>TRINITY <b>WRAPS</b></span>
+        <span className="brand-logo"><img src="/images/trinity-logo-mark.png" alt="" aria-hidden="true" /></span><span>TRINITY <b>WRAPS</b></span>
       </Link>
       <nav className={open ? "nav-links open" : "nav-links"} aria-label="Primary navigation">
         {links.map(([href, label]) => (
